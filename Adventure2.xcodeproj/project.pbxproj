@@ -21,6 +21,13 @@
 		51B7334D197FB6C8003CB1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332F197FB6C8003CB1E0 /* UIKit.framework */; };
 		51B73355197FB6C8003CB1E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B73353197FB6C8003CB1E0 /* InfoPlist.strings */; };
 		51B73357197FB6C8003CB1E0 /* Adventure2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B73356197FB6C8003CB1E0 /* Adventure2Tests.m */; };
+		51B73362197FBCC6003CB1E0 /* storyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B73361197FBCC6003CB1E0 /* storyViewController.m */; };
+		51B73368197FEE1D003CB1E0 /* stomachPumpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B73367197FEE1D003CB1E0 /* stomachPumpViewController.m */; };
+		51B7336B197FF276003CB1E0 /* HollywoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7336A197FF276003CB1E0 /* HollywoodViewController.m */; };
+		51B7336E197FF3B5003CB1E0 /* SyrupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7336D197FF3B5003CB1E0 /* SyrupViewController.m */; };
+		51B73374197FF496003CB1E0 /* TrainChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B73373197FF496003CB1E0 /* TrainChoiceViewController.m */; };
+		51B7337A197FF65A003CB1E0 /* PurpleLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B73379197FF65A003CB1E0 /* PurpleLineViewController.m */; };
+		51B7337D197FF676003CB1E0 /* GreenLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7337C197FF676003CB1E0 /* GreenLineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,20 @@
 		51B73352197FB6C8003CB1E0 /* Adventure2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adventure2Tests-Info.plist"; sourceTree = "<group>"; };
 		51B73354197FB6C8003CB1E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51B73356197FB6C8003CB1E0 /* Adventure2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adventure2Tests.m; sourceTree = "<group>"; };
+		51B73360197FBCC6003CB1E0 /* storyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = storyViewController.h; path = ../storyViewController.h; sourceTree = "<group>"; };
+		51B73361197FBCC6003CB1E0 /* storyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = storyViewController.m; path = ../storyViewController.m; sourceTree = "<group>"; };
+		51B73366197FEE1D003CB1E0 /* stomachPumpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stomachPumpViewController.h; path = ../stomachPumpViewController.h; sourceTree = "<group>"; };
+		51B73367197FEE1D003CB1E0 /* stomachPumpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = stomachPumpViewController.m; path = ../stomachPumpViewController.m; sourceTree = "<group>"; };
+		51B73369197FF276003CB1E0 /* HollywoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HollywoodViewController.h; path = ../HollywoodViewController.h; sourceTree = "<group>"; };
+		51B7336A197FF276003CB1E0 /* HollywoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HollywoodViewController.m; path = ../HollywoodViewController.m; sourceTree = "<group>"; };
+		51B7336C197FF3B5003CB1E0 /* SyrupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyrupViewController.h; path = ../SyrupViewController.h; sourceTree = "<group>"; };
+		51B7336D197FF3B5003CB1E0 /* SyrupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyrupViewController.m; path = ../SyrupViewController.m; sourceTree = "<group>"; };
+		51B73372197FF496003CB1E0 /* TrainChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainChoiceViewController.h; path = ../TrainChoiceViewController.h; sourceTree = "<group>"; };
+		51B73373197FF496003CB1E0 /* TrainChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainChoiceViewController.m; path = ../TrainChoiceViewController.m; sourceTree = "<group>"; };
+		51B73378197FF65A003CB1E0 /* PurpleLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PurpleLineViewController.h; path = ../PurpleLineViewController.h; sourceTree = "<group>"; };
+		51B73379197FF65A003CB1E0 /* PurpleLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PurpleLineViewController.m; path = ../PurpleLineViewController.m; sourceTree = "<group>"; };
+		51B7337B197FF676003CB1E0 /* GreenLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreenLineViewController.h; path = ../GreenLineViewController.h; sourceTree = "<group>"; };
+		51B7337C197FF676003CB1E0 /* GreenLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenLineViewController.m; path = ../GreenLineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +147,20 @@
 		51B73332197FB6C8003CB1E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				51B7337B197FF676003CB1E0 /* GreenLineViewController.h */,
+				51B7337C197FF676003CB1E0 /* GreenLineViewController.m */,
+				51B73378197FF65A003CB1E0 /* PurpleLineViewController.h */,
+				51B73379197FF65A003CB1E0 /* PurpleLineViewController.m */,
+				51B73372197FF496003CB1E0 /* TrainChoiceViewController.h */,
+				51B73373197FF496003CB1E0 /* TrainChoiceViewController.m */,
+				51B7336C197FF3B5003CB1E0 /* SyrupViewController.h */,
+				51B7336D197FF3B5003CB1E0 /* SyrupViewController.m */,
+				51B73369197FF276003CB1E0 /* HollywoodViewController.h */,
+				51B7336A197FF276003CB1E0 /* HollywoodViewController.m */,
+				51B73366197FEE1D003CB1E0 /* stomachPumpViewController.h */,
+				51B73367197FEE1D003CB1E0 /* stomachPumpViewController.m */,
+				51B73360197FBCC6003CB1E0 /* storyViewController.h */,
+				51B73361197FBCC6003CB1E0 /* storyViewController.m */,
 				51B73333197FB6C8003CB1E0 /* Adventure2-Info.plist */,
 				51B73334197FB6C8003CB1E0 /* InfoPlist.strings */,
 				51B73337197FB6C8003CB1E0 /* main.m */,
@@ -249,9 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B73362197FBCC6003CB1E0 /* storyViewController.m in Sources */,
 				51B73342197FB6C8003CB1E0 /* ViewController.m in Sources */,
 				51B7333C197FB6C8003CB1E0 /* AppDelegate.m in Sources */,
+				51B7336E197FF3B5003CB1E0 /* SyrupViewController.m in Sources */,
+				51B7337D197FF676003CB1E0 /* GreenLineViewController.m in Sources */,
+				51B7337A197FF65A003CB1E0 /* PurpleLineViewController.m in Sources */,
 				51B73338197FB6C8003CB1E0 /* main.m in Sources */,
+				51B7336B197FF276003CB1E0 /* HollywoodViewController.m in Sources */,
+				51B73374197FF496003CB1E0 /* TrainChoiceViewController.m in Sources */,
+				51B73368197FEE1D003CB1E0 /* stomachPumpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

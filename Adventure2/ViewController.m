@@ -7,8 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "storyViewController.h"
+#import "PurpleLineViewController.h"
+#import "TrainChoiceViewController.h"
+#import "SyrupViewController.h"
+#import "HollywoodViewController.h"
+#import "stomachPumpViewController.h"
+#import "GreenLineViewController.h"
+
+
 
 @interface ViewController ()
+
+@property (weak, nonatomic) UIStoryboardSegue *segue;
 
 @end
 
@@ -20,10 +31,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)unwindtoRootViewController:(UIStoryboardSegue *)sender{
+    NSLog(@"works");
 }
 
 @end
