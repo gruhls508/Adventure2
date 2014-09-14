@@ -266,7 +266,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3U-iF-Aev">
-                                <rect key="frame" x="82" y="507" width="178" height="30"/>
+                                <rect key="frame" x="71" y="518" width="178" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="And after the courtship..">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -276,7 +276,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9F1-qE-G4C">
-                                <rect key="frame" x="20" y="71" width="240" height="133"/>
+                                <rect key="frame" x="20" y="69" width="280" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Poor Ryan. It's rush hour and he just can't keep his eyes open. Or hold onto those pizza boxes. They slide to the floor as he slumps in the seat. They get trampled, which he sees when he wakes up in Rogers Park.</string>
@@ -284,7 +284,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCg-Kb-yFK">
-                                <rect key="frame" x="67" y="366" width="240" height="133"/>
+                                <rect key="frame" x="20" y="361" width="280" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Upon opening his eyes he sees a vaguely Russian-looking young woman carefully folding up the fallen boxes, dirty side in. She hands them to him with a smile. It would be the start of something lasting and beautiful.</string>
@@ -292,7 +292,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jH4-bM-8mz">
-                                <rect key="frame" x="60" y="210" width="240" height="128"/>
+                                <rect key="frame" x="20" y="210" width="280" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
