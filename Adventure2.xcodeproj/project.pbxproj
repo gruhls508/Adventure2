@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51AFBE0819C63A1100D4B3F9 /* The-Stomach-Pump-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51AFBE0719C63A1100D4B3F9 /* The-Stomach-Pump-2.jpg */; };
 		51B7332C197FB6C8003CB1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332B197FB6C8003CB1E0 /* Foundation.framework */; };
 		51B7332E197FB6C8003CB1E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */; };
 		51B73330197FB6C8003CB1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332F197FB6C8003CB1E0 /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51AFBE0719C63A1100D4B3F9 /* The-Stomach-Pump-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Stomach-Pump-2.jpg"; sourceTree = "<group>"; };
 		51B73328197FB6C8003CB1E0 /* Adventure2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B7332B197FB6C8003CB1E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +140,7 @@
 				51B7333D197FB6C8003CB1E0 /* Main.storyboard */,
 				51B73340197FB6C8003CB1E0 /* ViewController.h */,
 				51B73341197FB6C8003CB1E0 /* ViewController.m */,
+				51AFBE0719C63A1100D4B3F9 /* The-Stomach-Pump-2.jpg */,
 				51B73343197FB6C8003CB1E0 /* Images.xcassets */,
 				51B73332197FB6C8003CB1E0 /* Supporting Files */,
 			);
@@ -263,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AFBE0819C63A1100D4B3F9 /* The-Stomach-Pump-2.jpg in Resources */,
 				51B73344197FB6C8003CB1E0 /* Images.xcassets in Resources */,
 				51B73336197FB6C8003CB1E0 /* InfoPlist.strings in Resources */,
 				51B7333F197FB6C8003CB1E0 /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 				51B7335C197FB6C8003CB1E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51B7335D197FB6C8003CB1E0 /* Build configuration list for PBXNativeTarget "Adventure2Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				51B7335F197FB6C8003CB1E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
