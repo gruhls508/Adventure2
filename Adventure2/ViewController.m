@@ -7,18 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "storyViewController.h"
-#import "PurpleLineViewController.h"
-#import "TrainChoiceViewController.h"
-#import "SyrupViewController.h"
-#import "HollywoodViewController.h"
-#import "stomachPumpViewController.h"
-#import "GreenLineViewController.h"
+
 
 
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *endingLabel;
 @property (weak, nonatomic) UIStoryboardSegue *segue;
 
 @end
@@ -28,11 +23,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (IBAction)unwindtoRootViewController:(UIStoryboardSegue *)sender{
     NSLog(@"works");
+
+//    if (segue.sourceViewController == )
 }
 
 @end

@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "storyViewController.h"
+#import "PurpleLineViewController.h"
+#import "TrainChoiceViewController.h"
+#import "SyrupViewController.h"
+#import "HollywoodViewController.h"
+#import "stomachPumpViewController.h"
+#import "GreenLineViewController.h"
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextView *endingLabel;
 @property (weak, nonatomic) IBOutlet UIButton *clearUpBoxes;
 @property (weak, nonatomic) IBOutlet UIButton *eatBoxesButton;
 
