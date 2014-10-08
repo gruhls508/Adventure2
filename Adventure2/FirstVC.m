@@ -10,23 +10,25 @@
 
 @interface FirstVC () {
 
-    NSUserDefaults *heroName;
+    NSUserDefaults *storedHero;
 }
 
 @property (weak, nonatomic) IBOutlet UITextField *heroNameField;
 
 @end
 
+
 @implementation FirstVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     heroName = [NSUserDefaults standardUserDefaults];
+     storedHero = [NSUserDefaults standardUserDefaults];
 
 }
 
 - (IBAction)userNamedHero:(id)sender {
-    
+    [storedHero setObject:self.heroNameField.text forKey:@"heroName"];
+    NSLog(@"%@", [storedHero stringForKey:@"heroName"]);
 }
 
 
