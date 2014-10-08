@@ -60,6 +60,7 @@
                         <outlet property="clearUpBoxes" destination="4nb-Vn-gG9" id="ulS-8y-uLY"/>
                         <outlet property="eatBoxesButton" destination="L3p-VL-k69" id="A8E-6I-IN4"/>
                         <outlet property="endingLabel" destination="Tcd-B2-ely" id="Bcc-90-ewR"/>
+                        <outlet property="introTextView" destination="TLZ-xs-grx" id="4XC-m9-Bqq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

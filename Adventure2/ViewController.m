@@ -13,6 +13,7 @@
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *endingLabel;
+@property (weak, nonatomic) IBOutlet UITextView *introTextView;
 
 @end
 
