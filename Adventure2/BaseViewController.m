@@ -6,18 +6,18 @@
 //  Copyright (c) 2014 Intradine. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
 
 
-@interface ViewController ()
+@interface BaseViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *endingLabel;
 @property (weak, nonatomic) IBOutlet UITextView *introTextView;
 
 @end
 
-@implementation ViewController
+@implementation BaseViewController
 
 - (void)viewDidLoad
 {

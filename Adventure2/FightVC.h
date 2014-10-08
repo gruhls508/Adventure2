@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 MM. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
 @interface FightVC : UIViewController
 

@@ -20,7 +20,7 @@
 
 
 
-@interface ViewController : UIViewController
+@interface BaseViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *clearUpBoxes;
 @property (weak, nonatomic) IBOutlet UIButton *eatBoxesButton;
 
