@@ -8,7 +8,11 @@
 
 #import "FirstVC.h"
 
-@interface FirstVC ()
+@interface FirstVC () {
+
+    NSUserDefaults *heroName;
+}
+
 @property (weak, nonatomic) IBOutlet UITextField *heroNameField;
 
 @end
@@ -17,6 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     heroName = [NSUserDefaults standardUserDefaults];
+
 }
 
 - (IBAction)userNamedHero:(id)sender {
