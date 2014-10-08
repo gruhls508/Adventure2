@@ -11,9 +11,14 @@
 #import "PurpleLineViewController.h"
 #import "TrainChoiceViewController.h"
 #import "SyrupViewController.h"
+
 #import "HollywoodViewController.h"
 #import "stomachPumpViewController.h"
 #import "GreenLineViewController.h"
+#import "MarriageVC.h"
+#import "FightVC.h"
+
+
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *clearUpBoxes;
