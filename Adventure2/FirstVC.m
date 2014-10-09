@@ -26,10 +26,17 @@
 
 }
 
+
 - (IBAction)userNamedHero:(id)sender {
-    [storedHero setObject:self.heroNameField.text forKey:@"heroName"];
-    NSLog(@"%@", [storedHero stringForKey:@"heroName"]);
+    [self storeHero];
 }
 
+- (IBAction)pressedButtonToProgress:(id)sender {
+    [self storeHero];
+}
+
+- (void)storeHero {
+    [storedHero setObject:self.heroNameField.text forKey:@"heroName"];
+}
 
 @end

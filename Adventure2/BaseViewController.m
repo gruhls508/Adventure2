@@ -23,6 +23,9 @@
 {
     [super viewDidLoad];
     _endingLabel.hidden = YES;
+    NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
+    NSString *localHeroCopy = [storedHero stringForKey:@"heroName"];
+    _introTextView.text = [NSString stringWithFormat:@"%@ wakes up in the Mobile Makers space surrounded by empty pizza boxes.", localHeroCopy];
 }
 
 - (IBAction)unwindtoRootViewController:(UIStoryboardSegue *)segue{
