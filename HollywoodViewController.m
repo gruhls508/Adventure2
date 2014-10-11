@@ -9,41 +9,19 @@
 #import "HollywoodViewController.h"
 
 @interface HollywoodViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
 @implementation HollywoodViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
+    NSString *localHeroCopy = [storedHero stringForKey:@"heroName"];
+    self.textView.text = [NSString stringWithFormat:@"%@ feels powerful..so powerful, he just KNOWS he's Hollywood's next big thing. He shares his epiphany with Max. Max is like \"I'm British and I've never been to Hollywood. Totally going with you.\"", localHeroCopy];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
