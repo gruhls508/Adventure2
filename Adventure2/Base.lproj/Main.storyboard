@@ -147,7 +147,7 @@
                                     <segue destination="Dss-kq-ks2" kind="push" identifier="hollywoodSegue" id="x3I-wr-XxM"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6a-oT-Wip">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="n6a-oT-Wip">
                                 <rect key="frame" x="0.0" y="65" width="320" height="181"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -188,17 +188,15 @@
                                     <segue destination="p09-C4-BHh" kind="push" id="mGw-2g-tvq"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYL-Xl-4mZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="uYL-Xl-4mZ">
                                 <rect key="frame" x="0.0" y="65" width="320" height="168"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">The first face they recognize in Tinseltown is Thorny from Super Troopers. Ryan's like "Syrup-chugging contest. Now." Max is like "Horrible idea." Thorny says "You don't have a mustache. You can't win."</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-VT-vHQ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text also goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-VT-vHQ">
                                 <rect key="frame" x="0.0" y="394" width="320" height="129"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">The last thing Ryan hears before hitting the floor is Max making the sassiest remark in history. Max takes him to the hospital, where...</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -209,6 +207,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="PpH-Gc-qYp"/>
+                    <connections>
+                        <outlet property="textViewOne" destination="uYL-Xl-4mZ" id="qWQ-4R-MLj"/>
+                        <outlet property="textViewTwo" destination="5b3-VT-vHQ" id="2ZO-Eq-PK5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t9A-KW-A1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,7 +238,7 @@
                                     <segue destination="BqO-er-na3" kind="unwind" unwindAction="unwindtoRootViewController:" id="lJV-bl-7B0"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ryan gets his stomach pumped. The end." translatesAutoresizingMaskIntoConstraints="NO" id="Xbx-p7-Cqe">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="Xbx-p7-Cqe">
                                 <rect key="frame" x="0.0" y="64" width="320" height="151"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -250,6 +252,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="wmK-3v-90x"/>
                     <connections>
+                        <outlet property="textView" destination="Xbx-p7-Cqe" id="a06-25-eVT"/>
                         <outlet property="thatsAllButton" destination="L7v-4O-qmj" id="BiH-j7-cxZ"/>
                     </connections>
                 </viewController>
