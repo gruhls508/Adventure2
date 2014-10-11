@@ -106,10 +106,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Decisions-Decisions-910x1024" translatesAutoresizingMaskIntoConstraints="NO" id="bX2-Jq-6cd">
                                 <rect key="frame" x="0.0" y="235" width="320" height="269"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Gf-en-kDc">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="4Gf-en-kDc">
                                 <rect key="frame" x="0.0" y="64" width="320" height="170"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Ryan clears up the boxes, like a good citizen should. Of course Mobile Makers/223 W Erie don't have recycling, so Ryan takes the boxes To Go. Ryan lives the life of a nomad, so it really doesn't matter which train line he takes--he just has to pick one..</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -117,6 +116,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="rUN-OV-hVM"/>
+                    <connections>
+                        <outlet property="textView" destination="4Gf-en-kDc" id="mYM-Rx-R9Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6c-EA-NTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -380,9 +382,9 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-ta-icT">
-                                <rect key="frame" x="0.0" y="376" width="320" height="139"/>
+                                <rect key="frame" x="0.0" y="376" width="320" height="145"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">He throws back some tequila sunrises and starts talking tough. After making the wrong comment about how uninteresting Irish rugby is, Ryan ends up in an altercation. He barely makes it out on his feet.</string>
+                                <string key="text">He throws back some tequila sunrises and starts talking tough. After making the wrong comment about how uninteresting Irish rugby is, Ryan ends up in an altercation, barely emerging in a conscious state.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
