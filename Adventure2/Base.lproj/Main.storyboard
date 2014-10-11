@@ -150,7 +150,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6a-oT-Wip">
                                 <rect key="frame" x="0.0" y="65" width="320" height="181"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Ryan feels powerful..so powerful, he just KNOWS he's Hollywood's next big thing. He shares his epiphany with Max. Max is like "I'm British and I've never been to Hollywood. Totally going with you." </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -160,6 +159,7 @@
                     <navigationItem key="navigationItem" id="5ea-lw-21p"/>
                     <connections>
                         <outlet property="hollywoodButton" destination="2Es-g0-9Yy" id="Uou-u9-j2I"/>
+                        <outlet property="textView" destination="n6a-oT-Wip" id="wT7-zG-fCX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pw-HP-Rrc" userLabel="First Responder" sceneMemberID="firstResponder"/>
