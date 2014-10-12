@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Whw-A1-f1B">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Whw-A1-f1B">
     <dependencies>
         <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
@@ -109,7 +109,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="4Gf-en-kDc">
                                 <rect key="frame" x="0.0" y="64" width="320" height="170"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -263,10 +263,10 @@
             </objects>
             <point key="canvasLocation" x="3018" y="-272"/>
         </scene>
-        <!--Story View Controller-->
+        <!--AsleepVC-->
         <scene sceneID="DGr-Ha-gyA">
             <objects>
-                <viewController id="SY4-MA-xYr" customClass="storyViewController" sceneMemberID="viewController">
+                <viewController id="SY4-MA-xYr" customClass="AsleepVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NTl-Jr-gL1"/>
                         <viewControllerLayoutGuide type="bottom" id="AfG-De-ahW"/>
@@ -285,27 +285,29 @@
                                     <segue destination="MVI-xb-INR" kind="push" id="eF6-aA-5vY"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9F1-qE-G4C">
-                                <rect key="frame" x="0.0" y="65" width="320" height="136"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="9F1-qE-G4C">
+                                <rect key="frame" x="0.0" y="64" width="320" height="136"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Poor Ryan. It's rush hour and he just can't keep his eyes open. Or hold onto those pizza boxes. They slide to the floor as he slumps in the seat. They get trampled, which he sees when he wakes up in Rogers Park.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCg-Kb-yFK">
-                                <rect key="frame" x="0.0" y="388" width="320" height="136"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Upon opening his eyes he sees a vaguely Russian-looking young woman carefully folding up the fallen boxes (dirty side in.) She hands them to him with a smile. It would be the start of something lasting and beautiful.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rogersPark" translatesAutoresizingMaskIntoConstraints="NO" id="jH4-bM-8mz">
                                 <rect key="frame" x="0.0" y="200" width="320" height="187"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(more text, don't you know)" translatesAutoresizingMaskIntoConstraints="NO" id="SCg-Kb-yFK">
+                                <rect key="frame" x="0.0" y="388" width="320" height="136"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZRO-QE-f8c"/>
+                    <connections>
+                        <outlet property="textViewOne" destination="9F1-qE-G4C" id="YJH-BP-8yF"/>
+                        <outlet property="textViewTwo" destination="SCg-Kb-yFK" id="Qbg-VG-r3P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fr-5N-6va" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -333,7 +335,7 @@
                                     <segue destination="Pin-Tg-gFh" kind="unwind" unwindAction="unwindtoRootViewController:" id="2cy-Jl-TOI"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ryan gets married with four children. The end." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JHM-0Z-hkF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(the text goes here)" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JHM-0Z-hkF">
                                 <rect key="frame" x="6" y="90" width="303" height="76"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -346,6 +348,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="dIx-6P-0Ac"/>
+                    <connections>
+                        <outlet property="textView" destination="JHM-0Z-hkF" id="i9M-j0-4x1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euO-0O-2GG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Pin-Tg-gFh" userLabel="Exit" sceneMemberID="exit"/>
@@ -367,25 +372,23 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="273-UA-sbp">
                                 <rect key="frame" x="0.0" y="513" width="315" height="55"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Go home, Private Ryan">
+                                <state key="normal" title="Time for you to go home.">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="w5U-WA-Wj8" kind="unwind" unwindAction="unwindtoRootViewController:" id="3wt-bo-jZ7"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c5Q-Tc-rvZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="text" translatesAutoresizingMaskIntoConstraints="NO" id="c5Q-Tc-rvZ">
                                 <rect key="frame" x="0.0" y="65" width="320" height="131"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Ryan boards the Green line and head for the South Side. After jumping off the train and leaving the station, he sees a Big Belly compactor and tosses in those precious boxes. Then he arrives at a bar. An Irish one.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-ta-icT">
-                                <rect key="frame" x="0.0" y="376" width="320" height="145"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="we love text" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-ta-icT">
+                                <rect key="frame" x="0.0" y="376" width="320" height="136"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">He throws back some tequila sunrises and starts talking tough. After making the wrong comment about how uninteresting Irish rugby is, Ryan ends up in an altercation, barely emerging in a conscious state.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ryantoughguy" translatesAutoresizingMaskIntoConstraints="NO" id="1Aj-SM-UcO">
@@ -395,6 +398,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="2DW-Xb-ms2"/>
+                    <connections>
+                        <outlet property="textViewOne" destination="c5Q-Tc-rvZ" id="ZhC-ny-adq"/>
+                        <outlet property="textViewTwo" destination="aaO-ta-icT" id="PlF-PL-8YQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="953-bs-hjU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="w5U-WA-Wj8" userLabel="Exit" sceneMemberID="exit"/>

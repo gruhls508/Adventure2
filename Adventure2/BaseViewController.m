@@ -11,6 +11,9 @@
 
 
 @interface BaseViewController ()
+{
+    NSString *localHeroCopy;
+}
 
 @property (weak, nonatomic) IBOutlet UILabel *endingLabel;
 @property (weak, nonatomic) IBOutlet UITextView *introTextView;
@@ -24,7 +27,7 @@
     [super viewDidLoad];
     _endingLabel.hidden = YES;
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHeroCopy = [storedHero stringForKey:@"heroName"];
+    localHeroCopy = [storedHero stringForKey:@"heroName"];
     _introTextView.text = [NSString stringWithFormat:@"%@ wakes up in the Mobile Makers space surrounded by empty pizza boxes.", localHeroCopy];
 }
 
@@ -40,7 +43,7 @@
 
      else if ([segue.sourceViewController isKindOfClass:[MarriageVC class]])
      {
-         _endingLabel.text = @"Go Ryan! Russians are awesome.";
+         _endingLabel.text = [NSString stringWithFormat:@"Go %@! Russians are awesome.", localHeroCopy];
      }
     else if ([segue.sourceViewController isKindOfClass:[FightVC class]])
     {

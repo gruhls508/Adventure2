@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51131A2719E9F3B500D2F9E4 /* AsleepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51131A2619E9F3B500D2F9E4 /* AsleepVC.m */; };
 		5195F36D19E4DEC30008585C /* FightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5195F36C19E4DEC30008585C /* FightVC.m */; };
 		51B7332C197FB6C8003CB1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332B197FB6C8003CB1E0 /* Foundation.framework */; };
 		51B7332E197FB6C8003CB1E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51131A2519E9F3B500D2F9E4 /* AsleepVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsleepVC.h; sourceTree = "<group>"; };
+		51131A2619E9F3B500D2F9E4 /* AsleepVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsleepVC.m; sourceTree = "<group>"; };
 		5195F36B19E4DEC30008585C /* FightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightVC.h; sourceTree = "<group>"; };
 		5195F36C19E4DEC30008585C /* FightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FightVC.m; sourceTree = "<group>"; };
 		51B73328197FB6C8003CB1E0 /* Adventure2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +183,8 @@
 				51B73334197FB6C8003CB1E0 /* InfoPlist.strings */,
 				51B73337197FB6C8003CB1E0 /* main.m */,
 				51B73339197FB6C8003CB1E0 /* Adventure2-Prefix.pch */,
+				51131A2519E9F3B500D2F9E4 /* AsleepVC.h */,
+				51131A2619E9F3B500D2F9E4 /* AsleepVC.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51131A2719E9F3B500D2F9E4 /* AsleepVC.m in Sources */,
 				51B73362197FBCC6003CB1E0 /* storyViewController.m in Sources */,
 				51BF2F6419E5EC3600D52B22 /* FirstVC.m in Sources */,
 				51B73342197FB6C8003CB1E0 /* BaseViewController.m in Sources */,

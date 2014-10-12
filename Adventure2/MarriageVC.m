@@ -8,6 +8,24 @@
 
 #import "MarriageVC.h"
 
+@interface MarriageVC ()
+
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+
+@end
+
 @implementation MarriageVC
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    
+    NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
+    NSString *localHeroCopy = [storedHero objectForKey:@"heroName"];
+
+    self.textView.text = [NSString stringWithFormat:@"%@ gets married with four children. The end.",localHeroCopy];
+
+}
 
 @end
