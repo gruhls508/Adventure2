@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.textView.text = @"One of the pizza boxes opens its lid to speak. HA!";
+    self.textView.text = @"One of the pizza boxes opens its lid to speak. \"HA! Riddle me this, o environmentally conscious crusader!\"";
 }
 
 
