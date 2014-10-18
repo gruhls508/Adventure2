@@ -10,6 +10,7 @@
 		51131A2719E9F3B500D2F9E4 /* AsleepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51131A2619E9F3B500D2F9E4 /* AsleepVC.m */; };
 		51131A2E19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 51131A2D19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.m */; };
 		5195F36D19E4DEC30008585C /* FightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5195F36C19E4DEC30008585C /* FightVC.m */; };
+		51A364E519F1EB9100838ABF /* RiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A364E419F1EB9100838ABF /* RiddleViewController.m */; };
 		51B7332C197FB6C8003CB1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332B197FB6C8003CB1E0 /* Foundation.framework */; };
 		51B7332E197FB6C8003CB1E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */; };
 		51B73330197FB6C8003CB1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332F197FB6C8003CB1E0 /* UIKit.framework */; };
@@ -52,6 +53,8 @@
 		51131A2D19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TextViewCategory.m"; sourceTree = "<group>"; };
 		5195F36B19E4DEC30008585C /* FightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightVC.h; sourceTree = "<group>"; };
 		5195F36C19E4DEC30008585C /* FightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FightVC.m; sourceTree = "<group>"; };
+		51A364E319F1EB9100838ABF /* RiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiddleViewController.h; sourceTree = "<group>"; };
+		51A364E419F1EB9100838ABF /* RiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiddleViewController.m; sourceTree = "<group>"; };
 		51B73328197FB6C8003CB1E0 /* Adventure2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B7332B197FB6C8003CB1E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,6 +193,8 @@
 				51131A2619E9F3B500D2F9E4 /* AsleepVC.m */,
 				51131A2C19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.h */,
 				51131A2D19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.m */,
+				51A364E319F1EB9100838ABF /* RiddleViewController.h */,
+				51A364E419F1EB9100838ABF /* RiddleViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				51B73362197FBCC6003CB1E0 /* storyViewController.m in Sources */,
 				51BF2F6419E5EC3600D52B22 /* FirstVC.m in Sources */,
 				51B73342197FB6C8003CB1E0 /* BaseViewController.m in Sources */,
+				51A364E519F1EB9100838ABF /* RiddleViewController.m in Sources */,
 				51B7333C197FB6C8003CB1E0 /* AppDelegate.m in Sources */,
 				51B7336E197FF3B5003CB1E0 /* SyrupViewController.m in Sources */,
 				51B7337D197FF676003CB1E0 /* GreenLineViewController.m in Sources */,

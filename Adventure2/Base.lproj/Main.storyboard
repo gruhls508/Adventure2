@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Whw-A1-f1B">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -24,17 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2Tr-f4-XN1" kind="push" identifier="clearUpBoxesSegue" id="ele-hA-WoG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3p-VL-k69">
-                                <rect key="frame" x="0.0" y="222" width="320" height="83"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Eat boxes">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="uBW-zb-h1Y" kind="push" id="QLv-aZ-RBF"/>
+                                    <segue destination="TVR-ME-PL7" kind="push" id="fTg-8f-HZV"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(text goes here)" translatesAutoresizingMaskIntoConstraints="NO" id="TLZ-xs-grx">
@@ -52,6 +41,16 @@
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3p-VL-k69">
+                                <rect key="frame" x="0.0" y="222" width="320" height="83"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Eat boxes">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uBW-zb-h1Y" kind="push" id="VJj-vu-ZZT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -66,6 +65,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1339" y="-272"/>
+        </scene>
+        <!--Riddle View Controller-->
+        <scene sceneID="lHR-mV-pRu">
+            <objects>
+                <viewController id="TVR-ME-PL7" customClass="RiddleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xhq-Mz-10T"/>
+                        <viewControllerLayoutGuide type="bottom" id="sOl-s7-irp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6OY-YO-AA7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJn-0a-kq5">
+                                <rect key="frame" x="84" y="430" width="152" height="30"/>
+                                <state key="normal" title="Alright, you may pass.">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2Tr-f4-XN1" kind="push" id="JeM-fW-rLW"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dy2-y1-d6G">
+                                <rect key="frame" x="16" y="80" width="281" height="187"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MCz-wE-HEA"/>
+                    <connections>
+                        <outlet property="textView" destination="dy2-y1-d6G" id="ZDc-zB-AAx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3G4-6R-OaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1723" y="292"/>
         </scene>
         <!--Story View Controller-->
         <scene sceneID="sOs-UR-HKQ">
@@ -122,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6c-EA-NTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1760" y="-256"/>
+            <point key="canvasLocation" x="2162" y="748"/>
         </scene>
         <!--Hollywood View Controller-->
         <scene sceneID="1gG-6G-zNA">
@@ -311,7 +349,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fr-5N-6va" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1512" y="433"/>
+            <point key="canvasLocation" x="2594" y="389"/>
         </scene>
         <!--MarriageVC-->
         <scene sceneID="pMt-78-Vip">
@@ -355,7 +393,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euO-0O-2GG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Pin-Tg-gFh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1934" y="433"/>
+            <point key="canvasLocation" x="3018" y="395"/>
         </scene>
         <!--FightVC-->
         <scene sceneID="kbW-yk-R7b">
@@ -406,7 +444,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="953-bs-hjU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="w5U-WA-Wj8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1512" y="1098"/>
+            <point key="canvasLocation" x="2594" y="1096"/>
         </scene>
         <!--FirstVC-->
         <scene sceneID="Y97-Ha-fwA">
