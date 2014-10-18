@@ -29,7 +29,7 @@
 
     self.textViewOne.text = @"One of the pizza boxes opens its lid to speak. \"HA! Riddle me this, o environmentally conscious crusader!\"";
     self.button.alpha = 0;
-    self.textViewTwo.text = @"\"What can travel around the world while staying in a corner?\" ";
+    self.textViewTwo.text = [NSString stringWithFormat:@"\"What can travel around the world while staying in a corner?\" \r\r%@ was strangely paralyzed..alone in the Mobile Makers space, with no one to see his plight. All he could move was his mouth, to speak the answer..", localHeroCopy];
 }
 
 
