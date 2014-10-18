@@ -11,6 +11,7 @@
 		51131A2E19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 51131A2D19E9FFEC00D2F9E4 /* UITextView+TextViewCategory.m */; };
 		5195F36D19E4DEC30008585C /* FightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5195F36C19E4DEC30008585C /* FightVC.m */; };
 		51A364E519F1EB9100838ABF /* RiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A364E419F1EB9100838ABF /* RiddleViewController.m */; };
+		51A364E919F2EA9F00838ABF /* zza-box.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51A364E819F2EA9F00838ABF /* zza-box.jpg */; };
 		51B7332C197FB6C8003CB1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332B197FB6C8003CB1E0 /* Foundation.framework */; };
 		51B7332E197FB6C8003CB1E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */; };
 		51B73330197FB6C8003CB1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7332F197FB6C8003CB1E0 /* UIKit.framework */; };
@@ -55,6 +56,7 @@
 		5195F36C19E4DEC30008585C /* FightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FightVC.m; sourceTree = "<group>"; };
 		51A364E319F1EB9100838ABF /* RiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiddleViewController.h; sourceTree = "<group>"; };
 		51A364E419F1EB9100838ABF /* RiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiddleViewController.m; sourceTree = "<group>"; };
+		51A364E819F2EA9F00838ABF /* zza-box.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zza-box.jpg"; sourceTree = "<group>"; };
 		51B73328197FB6C8003CB1E0 /* Adventure2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B7332B197FB6C8003CB1E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51B7332D197FB6C8003CB1E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -167,6 +169,7 @@
 		51B73332197FB6C8003CB1E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				51A364E819F2EA9F00838ABF /* zza-box.jpg */,
 				51B7337B197FF676003CB1E0 /* GreenLineViewController.h */,
 				51B7337C197FF676003CB1E0 /* GreenLineViewController.m */,
 				51B73378197FF65A003CB1E0 /* PurpleLineViewController.h */,
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B73344197FB6C8003CB1E0 /* Images.xcassets in Resources */,
+				51A364E919F2EA9F00838ABF /* zza-box.jpg in Resources */,
 				51B73336197FB6C8003CB1E0 /* InfoPlist.strings in Resources */,
 				51B7333F197FB6C8003CB1E0 /* Main.storyboard in Resources */,
 			);

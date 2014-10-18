@@ -93,7 +93,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zza-box" translatesAutoresizingMaskIntoConstraints="NO" id="qw3-h5-Wto">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zza-box.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qw3-h5-Wto">
                                 <rect key="frame" x="6" y="114" width="306" height="171"/>
                             </imageView>
                         </subviews>
@@ -527,7 +527,7 @@
         <image name="ryanmarried" width="360" height="480"/>
         <image name="ryantoughguy" width="252" height="226"/>
         <image name="syrup" width="800" height="450"/>
-        <image name="zza-box" width="224" height="202"/>
+        <image name="zza-box.jpg" width="449" height="404"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
