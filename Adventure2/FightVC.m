@@ -21,7 +21,7 @@
     [super viewDidLoad];
 
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHeroCopy = [storedHero objectForKey:@"heroName"];
+    NSString *localHeroCopy = [storedHero objectForKey:kheroName];
 
     self.textViewOne.text = [NSString stringWithFormat:@"%@ boards the Green line and head for the South Side. After getting off at a random stop and seeing a Big Belly compactor, our hero tosses in those precious pizza boxes and moves on with life. Our hero then heads to a nearby bar. A nearby Irish bar.", localHeroCopy];
 

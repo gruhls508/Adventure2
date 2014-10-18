@@ -21,7 +21,7 @@
     [super viewDidLoad];
 
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHeroCopy = [storedHero objectForKey:@"heroName"];
+    NSString *localHeroCopy = [storedHero objectForKey:kheroName];
 
     self.textViewOne.text = [NSString stringWithFormat:@"Poor %@. It's rush hour and %@ just can't stay awake. Or hold onto those pizza boxes. They slide to the floor as %@ slumps in the seat. They get trampled, which %@ sees upon waking up in Rogers Park.", localHeroCopy, localHeroCopy, localHeroCopy, localHeroCopy];
 

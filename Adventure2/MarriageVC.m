@@ -22,7 +22,7 @@
 
     
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHeroCopy = [storedHero objectForKey:@"heroName"];
+    NSString *localHeroCopy = [storedHero objectForKey:kheroName];
 
     self.textView.text = [NSString stringWithFormat:@"%@ gets married with four children. The end.",localHeroCopy];
 

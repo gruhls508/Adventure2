@@ -36,7 +36,7 @@
 }
 
 - (void)storeHero {
-    [storedHero setObject:self.heroNameField.text forKey:@"heroName"];
+    [storedHero setObject:self.heroNameField.text forKey:kheroName];
 }
 
 @end

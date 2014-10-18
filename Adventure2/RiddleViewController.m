@@ -9,15 +9,27 @@
 #import "RiddleViewController.h"
 
 @interface RiddleViewController ()
-@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UITextView *textViewOne;
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UITextView *textViewTwo;
 
 @end
 
-@implementation RiddleViewController
+
+
+@implementation RiddleViewController {
+
+    NSUserDefaults *storedHero;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.textView.text = @"One of the pizza boxes opens its lid to speak. \"HA! Riddle me this, o environmentally conscious crusader!\"";
+    storedHero = [NSUserDefaults standardUserDefaults];
+    NSString *localHeroCopy = [storedHero objectForKey:kheroName];
+
+    self.textViewOne.text = @"One of the pizza boxes opens its lid to speak. \"HA! Riddle me this, o environmentally conscious crusader!\"";
+    self.button.alpha = 0;
+    self.textViewTwo.text = @"\"What can travel around the world while staying in a corner?\" ";
 }
 
 

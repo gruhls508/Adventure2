@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Defines.h"
 
 @interface stomachPumpViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *thatsAllButton;

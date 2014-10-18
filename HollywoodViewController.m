@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHeroCopy = [storedHero stringForKey:@"heroName"];
+    NSString *localHeroCopy = [storedHero stringForKey:kheroName];
     self.textView.text = [NSString stringWithFormat:@"%@ feels powerful..and SURE to be Hollywood's next big thing. After sharing this epiphany with Max. Max is like \"I'm British and I've never been to Hollywood. Totally going with you.\"", localHeroCopy];
 }
 

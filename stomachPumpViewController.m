@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHero = [storedHero objectForKey:@"heroName"];
+    NSString *localHero = [storedHero objectForKey:kheroName];
     self.textView.text = [NSString stringWithFormat:@"%@ finds out what it's like to get your stomach pumped. The end.", localHero];
 
 }

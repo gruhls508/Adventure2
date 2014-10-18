@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Defines.h"
 
 @interface HollywoodViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *hollywoodButton;

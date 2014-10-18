@@ -10,13 +10,17 @@
 #import "storyViewController.h"
 #import "PurpleLineViewController.h"
 #import "TrainChoiceViewController.h"
-#import "SyrupViewController.h"
 
+
+#import "SyrupViewController.h"
 #import "HollywoodViewController.h"
 #import "stomachPumpViewController.h"
 #import "GreenLineViewController.h"
+
+
 #import "MarriageVC.h"
 #import "FightVC.h"
+#import "Defines.h"
 
 
 

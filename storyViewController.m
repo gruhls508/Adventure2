@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     NSUserDefaults *storedHero = [NSUserDefaults standardUserDefaults];
-    NSString *localHeroCopy = [storedHero objectForKey:@"heroName"];
+    NSString *localHeroCopy = [storedHero objectForKey:kheroName];
 
     self.textView.text = [NSString stringWithFormat:@"%@ clears up the boxes, like a good citizen should. Of course Mobile Makers/223 W Erie don't have recycling, so %@ takes the boxes To Go. %@ lives the life of a nomad, so it really doesn't matter which train line--either one is fine. Or whatever.", localHeroCopy, localHeroCopy, localHeroCopy];
 }
