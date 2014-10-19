@@ -32,10 +32,12 @@
     self.button.alpha = 0;
     self.textViewTwo.text = [NSString stringWithFormat:@"\"What can travel around the world while staying in a corner?\" \r\r%@ was strangely paralyzed..alone in the Mobile Makers space, with no one to see his plight. All he could move was his mouth, to speak the answer..", localHeroCopy];
 }
-
-- (IBAction)answerWasEntered:(id)sender {
+- (IBAction)answerWasEntered:(UITextField *)sender {
 
     self.button.alpha = [self.textField.text  isEqual: @"a stamp"] ? 1 : 0;
+    [self resignFirstResponder];
+
 }
+
 
 @end
